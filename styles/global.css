@@ -1,6 +1,7 @@
 /* imports */
 
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Tiny5&display=swap'); /* "Pixelify Sans" */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap'); /* Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap'); /* Doto */
 
 /* reboot */
 
@@ -12,3 +13,25 @@
 }
 
 /* keyframes */
+
+@keyframes expandMenu {
+    0% {
+        max-height: 0;
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    100% {
+        max-height: 300px;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes animatedBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    100% {
+        background-position: 100% 50%;
+    }
+}
