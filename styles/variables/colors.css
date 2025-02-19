@@ -1,6 +1,6 @@
 :root {
-    --purple: rgb(176, 130, 255);
-    --light-purple: rgb(200, 104, 255);
     --white: rgb(255, 255, 255);
     --black: rgb(0, 0, 0);
+    --gray: rgb(105, 105, 105);
+    
 }
