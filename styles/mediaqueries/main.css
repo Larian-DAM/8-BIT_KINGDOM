@@ -32,6 +32,40 @@
         grid-column: 1;
         grid-row: 2;
     }
+
+}
+
+@media screen and (max-width: 1550px) {
+    .our-brands {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 200px 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px 200px ;
+        gap: 30px;
+        padding: 20px 0 60px 0;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .our-brands {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 200px 200px 200px;
+        grid-template-rows: 200px 200px 200px 200px ;
+        gap: 20px;
+        padding: 20px 0 60px 0;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .our-brands {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 150px 150px;
+        grid-template-rows: 150px 150px 150px 150px ;
+        gap: 10px;
+        padding: 20px 0 60px 0;
+    }
 }
 
 @media screen and (max-width: 690px) {
