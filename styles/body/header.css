@@ -1,6 +1,6 @@
 header {
     animation: animatedBackground 7s infinite;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .hamburger-menu {
@@ -14,12 +14,12 @@ header {
 
 .title {
     text-align: center;
-    padding: 200px 50px 150px;
+    padding: 150px 50px 100px 50px;
 }
 
 .title h1, .title h3 {
     font-family: "Doto", serif;
-    font-size: 50px;
+    font-size: 45px;
     font-optical-sizing: auto;
     font-weight: 1000;
     font-style: normal;
@@ -37,11 +37,11 @@ header nav {
     top: 0;
     width: 100%;
     z-index: 1000;
+    border-bottom: 2px solid var(--white);
 }
 
-header nav .menu li img {
+.logo img {
     width: 55px;
-    margin: 0px 10px;
 }
 
 header nav ul {
@@ -87,7 +87,7 @@ li:hover > .submenu {
     border-top: 3px solid var(--black);
     border-bottom: 3px solid var(--black);
     left: 0;
-    top: 70px;
+    top: 65px;
     width: 100%;
     position: absolute;
     display: flex;
@@ -114,18 +114,17 @@ li:hover > .submenu {
 .header-right-menu {
     column-gap: 35px;
     font-size: 30px;
-    padding: 0 55px;
+    padding: 0 40px;
     display: flex;
     flex-direction: row;
 }
 
 .hamburger-menu a {
     font-size: 30px;
-    border: 2px solid var(--white);
-    padding: 10px 20px;
     text-decoration: none;
     color: var(--white);
     font-weight: bold;
+    margin-left: 10px;
 }
 
 .header-right-menu li {
