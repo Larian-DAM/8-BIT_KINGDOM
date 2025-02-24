@@ -8,15 +8,16 @@ main {
     color: var(--white);
     display: grid;
     justify-content: center;
-    grid-template-columns: 500px 250px 250px;
-    grid-template-rows: 250px 250px;
+    grid-template-columns: 400px 200px 200px;
+    grid-template-rows: 200px 200px;
     gap: 40px;
     padding: 20px 0 60px 0;
 }
 
 .news > article {
     transition: transform 0.1s ease-in-out;
-    border: 3px solid var(--white);
+    border: 5px solid var(--white);
+    overflow: hidden;
 }
 
 .news > article:hover {
@@ -33,7 +34,6 @@ main {
 .news-1 {
     grid-column: 1 / span 1;
     grid-row: 1 / span 2;
-    background-image: url(../../images/news/promotions.png);
 }
 
 .news-2 {
@@ -56,8 +56,11 @@ main {
     grid-row: 2;
 }
 
-.news > article > img {
+.news > article > a > img {
     width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ajusta la imagen sin deformarla */
+    display: block;
 }
 
 .section-title {
