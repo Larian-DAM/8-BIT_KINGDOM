@@ -467,3 +467,12 @@
         grid-row: 3;
     }    
 }
+
+@media screen and (max-width: 1420px) {
+    .opinions {
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 300px 300px;
+        grid-template-rows: px auto 400px 400px;
+    }
+}

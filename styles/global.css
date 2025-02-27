@@ -110,3 +110,21 @@
         border-color: #9ac3ff;
     }
 }
+
+@keyframes textColor {
+    0% {
+        color: #9ac3ff;
+    }
+    25% {
+        color: #b0d4ff;
+    }
+    50% {
+        color: #d8aaff;
+    }
+    75% {
+        color: #be88f7;
+    }
+    100% {
+        color: #9ac3ff;
+    }
+}

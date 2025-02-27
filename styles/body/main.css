@@ -239,6 +239,7 @@ main {
     justify-content: space-between;
     text-align: center;
     transition: transform 0.1s ease-in-out;
+    border-radius: 15px;
 }
 
 .our-services > article:hover {
@@ -248,6 +249,10 @@ main {
 
 .our-services > article > a > i {
     font-size: 80px;
+}
+
+.our-services > article > a:hover {
+    animation: textColor 2s infinite;
 }
 
 .our-services-title {
@@ -278,4 +283,51 @@ main {
     display: grid;
     grid-column: 4;
     grid-row: 2;
+}
+
+/* opinions */
+
+.opinions {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: px auto 400px 400px 400px;
+    gap: 35px;
+    padding: 60px 0 60px 0;
+}
+
+.opinions > article {
+    border: 3px solid var(--black);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.opinions > article > p {
+    padding: 10px;
+}
+
+.stars {
+    padding: 10px;
+    text-align: right;
+    color: var(--yellow);
+}
+
+.opinions > article > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 3px solid var(--black);
+}
+
+.opinions > article > div > i {
+    font-size: 20px;
+}
+
+.opinions-title {
+    grid-column: 1 / span 4;
+    grid-row: 1;
+    text-align: center;
 }
